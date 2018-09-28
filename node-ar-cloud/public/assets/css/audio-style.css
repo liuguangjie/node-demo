@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*body{font-size:.24rem;width:6.4rem;}*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#ddd;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  #ddd;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#ddd;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#ddd;
+}
+
+/**  zjreplay**/
+.add_yuyin{ font-size:.24rem; height:.85rem;border-top: #e5e5e5;margin-left:.28rem;line-height: .85rem;width:100%;;float:left;}
+.add_yuyin .r_yuyin {
+    margin:.1rem 0;color:#999999;height:.6rem;line-height:.6rem;padding:0 .2rem;
+    background:url(../image/icon.png) no-repeat #fff3ea;
+    border:1px solid #ffe0c9;border-radius: 6px;
+   /* max-width: 75%;min-width: 18%;*/position: relative;float:left;
+}
+/** 播放录音的动画效果 **/
+@-webkit-keyframes bofang {
+    25% {
+       background-position:-.14rem -.07rem;
+    }
+    50% {
+       background-position:-.63rem -.07rem;
+    }
+    75% {
+       background-position:-1.08rem -.07rem;
+    }
+    100% {
+       background-position:-1.49rem -.07rem;
+    } 
+}
+@keyframes bofang {
+    25% {
+       background-position:-.14rem -.07rem;
+    }
+    50% {
+       background-position:-.63rem -.07rem;
+    }
+    75% {
+       background-position:-1.08rem -.07rem;
+    }
+    100% {
+       background-position:-1.49rem -.07rem;
+    } 
+}
