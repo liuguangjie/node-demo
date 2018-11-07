@@ -1,0 +1,26 @@
+{
+    "user": {
+        "user_id": "String",
+        "platform": "String",
+        "user_first_time": "String",
+        "create_time": "String",
+        "login_name": "String"
+    },
+    "room_data": {
+        "room_id": "String",
+        "room_type": "Number",
+        "user_id": "Number",
+        "player_num": "Number",
+        "diamond_num": "Number",
+        "normal_settle": "Number",
+        "single_settle": "Number",
+        "create_time": "Number"
+    },
+    "online_data": {
+        "server_id": "String",
+        "pf": "Number",
+        "player_num": "Number",
+        "room_list": "String",
+        "update_time": "Number"
+    }
+}
